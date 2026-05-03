@@ -49,7 +49,12 @@ export default function InsuranceLanding() {
           <FadeIn>
             <h2>Transform Uncertainty into a Calculable Risk</h2>
             <p>Join the pool of carriers using aaieo to underwrite the next trillion-dollar market: Autonomous AI Agents.</p>
-            <MagneticButton href="mailto:oriens@aiexecutions.com" variant="primary">Schedule a Board Briefing</MagneticButton>
+            <MagneticButton 
+              href={`mailto:oriens@aiexecutions.com?subject=${encodeURIComponent("Insurance Partnership: MGA & E&O Underwriting")}&body=${encodeURIComponent("Hello aaieo Team,\n\nWe are interested in exploring how your forensic telemetry can help us underwrite Agentic AI risk safely. We would like to schedule a board briefing.\n\nRegards,\n[Your Name/Carrier]")}`} 
+              variant="primary"
+            >
+              Schedule a Board Briefing
+            </MagneticButton>
           </FadeIn>
         </div>
       </section>

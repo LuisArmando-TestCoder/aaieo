@@ -53,7 +53,12 @@ export default async function PersonalizedPitch({ params }: { params: Promise<{ 
               <p>By partnering with aaieo.com, you can offer your clients an "Orange Box" audited solution, driving massive retention and opening new premium markets.</p>
             </StaggerItem>
             <StaggerItem className={styles.ctaWrapper}>
-              <MagneticButton href="mailto:oriens@aiexecutions.com" variant="primary">Schedule Private Briefing</MagneticButton>
+              <MagneticButton 
+                href={`mailto:oriens@aiexecutions.com?subject=${encodeURIComponent(`Private Briefing Request: ${pitchData.name} - ${pitchData.company}`)}&body=${encodeURIComponent(`Hi aaieo Team,\n\nI reviewed the personalized liability risk analysis for ${pitchData.company}.\n\nI would like to schedule a private briefing to discuss integrating the 'Orange Box' telemetry.\n\nBest,\n${pitchData.name}`)}`} 
+                variant="primary"
+              >
+                Schedule Private Briefing
+              </MagneticButton>
             </StaggerItem>
           </StaggerContainer>
         </div>

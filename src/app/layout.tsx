@@ -70,7 +70,7 @@ export default function RootLayout({
                   <h4>Legal & Compliance</h4>
                   <Link href="/guidelines">Safety Guidelines</Link>
                   <Link href="/secure-demo">IP Honey Pot Demo</Link>
-                  <a href="mailto:oriens@aiexecutions.com">Contact Legal</a>
+                  <a href={`mailto:oriens@aiexecutions.com?subject=${encodeURIComponent("Legal / Compliance Inquiry")}`}>Contact Legal</a>
                 </div>
               </div>
             </div>

@@ -43,7 +43,12 @@ export default function InvestorsLanding() {
           <FadeIn>
             <h2>Partner with the category definer</h2>
             <p>We are raising capital to accelerate the deployment of our "Orange Box" standard across the Fortune 500.</p>
-            <MagneticButton href="mailto:oriens@aiexecutions.com" variant="primary">Contact the Founders</MagneticButton>
+            <MagneticButton 
+              href={`mailto:oriens@aiexecutions.com?subject=${encodeURIComponent("VC Inquiry: aaieo.com Funding")}&body=${encodeURIComponent("Hi aaieo Founders,\n\nWe are interested in discussing the 'Orange Box' standard and your vision for Agentic Liability. Please let us know your availability for a private briefing.\n\nBest,\n[Your Name/Fund]")}`} 
+              variant="primary"
+            >
+              Contact the Founders
+            </MagneticButton>
           </FadeIn>
         </div>
       </section>
