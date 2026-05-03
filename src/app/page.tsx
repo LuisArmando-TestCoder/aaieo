@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container">
           <FadeIn>
             <h1>Agentic AI Errors & Omissions.</h1>
-            <p>La plataforma única para registrar, auditar y asegurar despliegues de Inteligencia Artificial Autónoma. The definitive E&O infrastructure for autonomous action.</p>
+            <p>The definitive platform to register, audit, and insure Autonomous Artificial Intelligence deployments. The ultimate E&O infrastructure for autonomous action.</p>
             <div className={styles.actions}>
               <MagneticButton href="/assessment" variant="primary">Apply for Coverage</MagneticButton>
               <MagneticButton href="/insurance" variant="secondary">For Carriers</MagneticButton>
@@ -29,15 +29,15 @@ export default function Home() {
           <StaggerContainer className={styles.featuresGrid}>
             <StaggerItem className={styles.featureCard}>
               <h3>Registry</h3>
-              <p>Un registro inmutable de cada versión del modelo y sus logs. Como un Cap Table, pero para la responsabilidad de tus Agentes de IA.</p>
+              <p>An immutable registry of each model version and its logs. Like a Cap Table, but for the liability of your AI Agents.</p>
             </StaggerItem>
             <StaggerItem className={styles.featureCard}>
               <h3>Audit & Troubleshoot</h3>
-              <p>Análisis forense en tiempo real. Diferenciamos instantáneamente entre malicia del usuario, datos corruptos, o alucinación del modelo.</p>
+              <p>Real-time forensic analysis. We instantly differentiate between user malice, corrupted data, or model hallucination.</p>
             </StaggerItem>
             <StaggerItem className={styles.featureCard}>
               <h3>Insure</h3>
-              <p>Conexión directa con pools de seguros. Al usar aaieo, tus modelos están pre-calificados para pólizas automáticas de Errores y Omisiones (E&O).</p>
+              <p>Direct connection to insurance pools. By using aaieo, your models are pre-qualified for automatic Errors and Omissions (E&O) policies.</p>
             </StaggerItem>
           </StaggerContainer>
         </div>

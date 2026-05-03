@@ -22,7 +22,7 @@ export default function InsuranceLanding() {
             <StaggerItem className={styles.textContent}>
               <h2>Loss Ratio Control</h2>
               <p>Current E&O policies cannot audit algorithmic failure, leaving you exposed to unquantifiable risk.</p>
-              <p>aaieo.com provides the missing peritaje técnico (forensic audit). We ingest server logs, model states, and user prompts to instantly differentiate between data corruption, user malice, or true model hallucination.</p>
+              <p>aaieo.com provides the missing forensic audit infrastructure. We ingest server logs, model states, and user prompts to instantly differentiate between data corruption, user malice, or true model hallucination.</p>
             </StaggerItem>
             <StaggerItem className={styles.statCard}>
               <div className={styles.statNumber}>90%</div>
