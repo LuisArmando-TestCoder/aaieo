@@ -44,7 +44,6 @@ export default function RootLayout({
               <Link href="/agencies">Agencies</Link>
               <Link href="/insurance">Insurance</Link>
               <Link href="/investors">Investors</Link>
-              <Link href="/guidelines">Guidelines</Link>
             </div>
             <MagneticButton href="/assessment" variant="primary-small">Risk Assessment</MagneticButton>
           </div>

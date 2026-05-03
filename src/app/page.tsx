@@ -9,8 +9,8 @@ export default function Home() {
       <section className={styles.hero}>
         <div className="container">
           <FadeIn>
-            <h1>AI Accountability. Solved.</h1>
-            <p>La plataforma única para registrar, auditar y asegurar despliegues de Inteligencia Artificial Autónoma. We are the "Carta" for AI Liability.</p>
+            <h1>Agentic AI Errors & Omissions.</h1>
+            <p>La plataforma única para registrar, auditar y asegurar despliegues de Inteligencia Artificial Autónoma. The definitive E&O infrastructure for autonomous action.</p>
             <div className={styles.actions}>
               <MagneticButton href="/assessment" variant="primary">Get Started</MagneticButton>
               <MagneticButton href="/insurance" variant="secondary">For Carriers</MagneticButton>
