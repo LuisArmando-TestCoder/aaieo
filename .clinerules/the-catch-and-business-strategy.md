@@ -27,6 +27,9 @@ This document captures the business strategy, target audiences, competitive posi
 - **Leveraging the Waitlist:** Use this database of pre-qualified startups to walk into VC meetings or Insurance corporate offices and say, "We have 2,000 clients ready for insurance right now."
 - **Hyper-Personalized Automated Funnels:** Use AI to scrape prospective clients' (like BNI contacts or specific investors) websites. Generate custom landing pages hidden behind unique, complex URLs containing tailored sales copy, inferred liability risk assessments, and automated follow-up sequences.
 
+## The Secret Sauce (Core IP)
+- **The Stress Testing Engine:** While the platform acts as an intermediary for insurance, the *true* protectable IP is the proprietary system that performs stress testing on AI agents. Even if it's currently a conceptual or mock system, positioning this engine as the core technological moat is critical for leverage.
+
 ## The Catch (El Anzuelo y La Trampa)
 - **El Anzuelo (The Hook):** Sell the "Liability Gap". Expose that current E&O policies cannot audit algorithmic failure. Offer a 10-minute meeting to discuss the "Immutable Liability Chain".
 - **El Honey Pot Técnico:** In meetings, only show the Liability Flowchart. Do not show code. Document everything via follow-up emails to create an undeniable IP paper trail.

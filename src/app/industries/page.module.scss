@@ -1,0 +1,64 @@
+.hero {
+  padding: 8rem 0 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+
+  h1 {
+    font-size: 3.5rem;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+}
+
+.contentSection {
+  padding: 6rem 0;
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+
+    .industryCard {
+      background: #fafafa;
+      padding: 3rem;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .riskBox {
+        background: #0a0a0a;
+        color: #fff;
+        padding: 1rem 1.5rem;
+        border-left: 3px solid #ffaa00;
+        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        font-family: var(--font-body), serif;
+
+        strong {
+          color: #ffaa00;
+        }
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

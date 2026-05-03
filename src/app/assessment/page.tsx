@@ -78,8 +78,8 @@ ${submittedData.companyName} Team`);
       <section className={styles.hero}>
         <div className="container">
           <FadeIn>
-            <h1>AI Liability Risk Assessment</h1>
-            <p>Join 2,000+ startups currently evaluating their uninsurable risk. Find out your Liability Score and pre-qualify for Agentic E&O coverage.</p>
+            <h1>Apply for Assessment</h1>
+            <p>Join 3,000+ startups on the waiting list to evaluate their uninsurable risk. Get your free assessment to pre-qualify for Agentic E&O coverage.</p>
           </FadeIn>
         </div>
       </section>

@@ -12,7 +12,7 @@ export default function Home() {
             <h1>Agentic AI Errors & Omissions.</h1>
             <p>La plataforma única para registrar, auditar y asegurar despliegues de Inteligencia Artificial Autónoma. The definitive E&O infrastructure for autonomous action.</p>
             <div className={styles.actions}>
-              <MagneticButton href="/assessment" variant="primary">Get Started</MagneticButton>
+              <MagneticButton href="/assessment" variant="primary">Apply for Coverage</MagneticButton>
               <MagneticButton href="/insurance" variant="secondary">For Carriers</MagneticButton>
             </div>
           </FadeIn>
@@ -48,7 +48,7 @@ export default function Home() {
           <FadeIn>
             <h2>Ready to deploy with certainty?</h2>
             <p>Don't let the Liability Gap pause your innovation. Integrate our read-only API and convert risk into an insurable asset.</p>
-            <MagneticButton href="/assessment" variant="inverted">Request Technical Report</MagneticButton>
+            <MagneticButton href="/assessment" variant="inverted">Apply to Waitlist</MagneticButton>
           </FadeIn>
         </div>
       </section>

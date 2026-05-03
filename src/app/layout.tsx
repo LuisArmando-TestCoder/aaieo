@@ -44,8 +44,17 @@ export default function RootLayout({
               <Link href="/agencies">Agencies</Link>
               <Link href="/insurance">Insurance</Link>
               <Link href="/investors">Investors</Link>
+              <div className="dropdown">
+                <span className="dropbtn">Industries</span>
+                <div className="dropdown-content">
+                  <Link href="/industries#enterprise">Enterprise Agents</Link>
+                  <Link href="/industries#professional">Professional Automation</Link>
+                  <Link href="/industries#healthcare">Healthcare & Medical</Link>
+                  <Link href="/industries#finance">Finance & Trading</Link>
+                </div>
+              </div>
             </div>
-            <MagneticButton href="/assessment" variant="primary-small">Risk Assessment</MagneticButton>
+            <MagneticButton href="/assessment" variant="primary-small">Apply for Assessment</MagneticButton>
           </div>
         </nav>
         
