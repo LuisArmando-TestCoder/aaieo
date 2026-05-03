@@ -1,0 +1,85 @@
+.hero {
+  padding: 10rem 0 8rem;
+  border-bottom: 1px solid var(--border-color);
+
+  h1 {
+    font-size: 4.5rem;
+    max-width: 900px;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color: #444;
+    max-width: 650px;
+    margin-bottom: 3rem;
+  }
+}
+
+.contentSection {
+  padding: 8rem 0;
+  border-bottom: 1px solid var(--border-color);
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .textContent {
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 1.15rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .statCard {
+    background: #fafafa;
+    padding: 4rem;
+    border: 1px solid var(--border-color);
+    text-align: center;
+
+    .statNumber {
+      font-family: var(--font-heading), serif;
+      font-size: 5rem;
+      color: var(--foreground);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .statLabel {
+      font-size: 1.1rem;
+      color: #666;
+    }
+  }
+}
+
+.ctaSection {
+  padding: 8rem 0;
+  text-align: center;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+  }
+}

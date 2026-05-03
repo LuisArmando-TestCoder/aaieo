@@ -1,0 +1,84 @@
+.pitchMain {
+  background-color: #050505;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.hero {
+  padding: 10rem 0 6rem;
+  text-align: center;
+  border-bottom: 1px solid #222;
+
+  .confidentialBadge {
+    display: inline-block;
+    background: #ffaa0022;
+    color: #ffaa00;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ffaa0044;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    color: #fff;
+  }
+
+  p {
+    font-size: 1.3rem;
+    color: #aaa;
+    max-width: 650px;
+    margin: 0 auto 3rem;
+  }
+
+  .actions {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.contentSection {
+  padding: 8rem 0;
+
+  .analysisBox {
+    background: #111;
+    border: 1px solid #333;
+    padding: 4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 4px;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    .riskText {
+      font-family: monospace;
+      font-size: 1.1rem;
+      color: #ffaa00;
+      background: #000;
+      padding: 1.5rem;
+      border-left: 3px solid #ffaa00;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      color: #ccc;
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .ctaWrapper {
+      margin-top: 3rem;
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,181 @@
+.hero {
+  padding: 8rem 0 4rem;
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+}
+
+.formSection {
+  padding: 4rem 0 8rem;
+  
+  .formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 450px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stepContent {
+    background: #fafafa;
+    padding: 3rem;
+    border: 1px solid var(--border-color);
+    width: 100%;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .formGroup {
+      margin-bottom: 1.5rem;
+
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+        font-size: 1.05rem;
+      }
+
+      input, select, textarea {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: 2px;
+        font-family: var(--font-body), serif;
+        font-size: 1rem;
+        background: #fff;
+        transition: border-color 0.2s;
+        
+        &:focus {
+          outline: none;
+          border-color: var(--foreground);
+        }
+
+        &.inputError {
+          border-color: #ff3333;
+        }
+      }
+
+      textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+
+      .error {
+        color: #ff3333;
+        font-size: 0.85rem;
+        margin-top: 0.4rem;
+        display: block;
+      }
+    }
+
+    button {
+      width: 100%;
+      padding: 1.2rem;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+    }
+
+    .flexButtons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+
+      button {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.calculatingState {
+  text-align: center;
+  padding: 5rem 0;
+  width: 100%;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #666;
+  }
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--border-color);
+  border-top-color: var(--foreground);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 2rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.resultState {
+  width: 100%;
+  background: #fafafa;
+  padding: 3rem;
+  border: 1px solid var(--border-color);
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .highlight {
+    color: #ffaa00;
+    font-family: monospace;
+    font-weight: 700;
+  }
+
+  p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .nextSteps {
+    text-align: left;
+    background: #fff;
+    padding: 2rem;
+    border: 1px solid #eaeaea;
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+  }
+
+  a {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+  }
+}

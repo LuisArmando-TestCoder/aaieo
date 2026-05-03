@@ -1,0 +1,267 @@
+.secureMain {
+  background-color: #050505;
+  color: #fff;
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+// LOGIN WALL
+.loginWall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.loginBox {
+  background: #111;
+  border: 1px solid #333;
+  padding: 3rem;
+  border-radius: 4px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  p {
+    color: #ccc;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .warningText {
+    color: #ffaa00;
+    font-size: 0.85rem;
+    padding: 1rem;
+    border: 1px solid #ffaa0044;
+    background: #ffaa0011;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #000;
+    border: 1px solid #444;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+
+    &:focus {
+      outline: none;
+      border-color: #ffaa00;
+    }
+  }
+
+  .loginBtn {
+    width: 100%;
+    padding: 1rem;
+    background: #fff;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #ccc;
+    }
+  }
+}
+
+// REST OF SECURE DASHBOARD
+
+.secureHeader {
+  background-color: #111;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #222;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .warningBadge {
+    background: #ffaa00;
+    color: #000;
+    padding: 0.4rem 0.8rem;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  margin-top: 3rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sidebar {
+  background: #111;
+  padding: 2rem;
+  border: 1px solid #222;
+  border-radius: 4px;
+  height: fit-content;
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #ccc;
+  }
+
+  .statBox {
+    margin-bottom: 1.5rem;
+
+    .label {
+      display: block;
+      font-size: 0.85rem;
+      color: #888;
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+    }
+
+    .value {
+      font-size: 1.5rem;
+      font-family: monospace;
+      color: #fff;
+    }
+  }
+
+  .legalNotice {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #333;
+    font-size: 0.85rem;
+    color: #888;
+    line-height: 1.5;
+
+    strong {
+      color: #ffaa00;
+    }
+    
+    em {
+      color: #fff;
+      font-style: normal;
+      background: #333;
+      padding: 0 4px;
+      border-radius: 2px;
+    }
+  }
+}
+
+.mainContent {
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    color: #aaa;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.flowchartMock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #111;
+  padding: 4rem 2rem;
+  border: 1px solid #222;
+  border-radius: 4px;
+  margin-bottom: 3rem;
+
+  .node {
+    background: #222;
+    padding: 1rem 2rem;
+    border: 1px solid #444;
+    font-family: monospace;
+    font-size: 1.1rem;
+    min-width: 300px;
+    text-align: center;
+  }
+
+  .arrow {
+    padding: 1rem 0;
+    color: #666;
+  }
+
+  .split {
+    display: flex;
+    gap: 1rem;
+
+    .subNode {
+      background: #1a1a1a;
+      padding: 1rem;
+      border: 1px solid #333;
+      font-family: monospace;
+      font-size: 0.9rem;
+      color: #ccc;
+      text-align: center;
+      max-width: 200px;
+    }
+  }
+
+  .finalNode {
+    background: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 1.1rem;
+    min-width: 300px;
+    text-align: center;
+  }
+}
+
+.trackingConsole {
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+
+  .consoleWindow {
+    background: #000;
+    padding: 1.5rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 0.85rem;
+    color: #0f0;
+    height: 200px;
+    overflow-y: auto;
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    .newLog {
+      color: #0f0;
+    }
+  }
+}
