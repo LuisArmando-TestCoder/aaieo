@@ -36,10 +36,11 @@ export const StaggerContainer = ({ children, className, style }: { children: Rea
   </motion.div>
 );
 
-export const StaggerItem = ({ children, className, style }: { children: ReactNode, className?: string, style?: React.CSSProperties }) => (
+export const StaggerItem = ({ children, className, style, id }: { children: ReactNode, className?: string, style?: React.CSSProperties, id?: string }) => (
   <motion.div
     className={className}
     style={style}
+    id={id}
     variants={{
       hidden: { opacity: 0, y: 30 },
       visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
