@@ -299,3 +299,46 @@ button {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+// Velocity Marquee (scroll-reactive infinite ticker)
+.velocity-marquee {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background: #fafafa;
+  padding: clamp(1rem, 2.5vw, 1.75rem) 0;
+  user-select: none;
+
+  .velocity-marquee__row {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    will-change: transform;
+  }
+
+  span {
+    display: inline-block;
+    font-family: var(--font-heading), serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(1.4rem, 4vw, 2.75rem);
+    letter-spacing: -0.01em;
+    color: #111;
+    padding-right: 1rem;
+  }
+}
+
+// Respect users who prefer reduced motion globally
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .velocity-marquee span {
+    color: #333;
+  }
+}
+

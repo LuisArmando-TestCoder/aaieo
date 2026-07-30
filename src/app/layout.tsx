@@ -27,6 +27,7 @@ export const metadata: Metadata = {
 
 import SmoothScroll from "@/components/SmoothScroll";
 import MagneticButton from "@/components/MagneticButton";
+import { LogoMark } from "@/components/LogoMark";
 
 export default function RootLayout({
   children,
@@ -39,7 +40,14 @@ export default function RootLayout({
         <SmoothScroll>
         <nav className="global-nav">
           <div className="nav-container">
-            <Link href="/" className="logo">aaieo.com</Link>
+            <Link
+              href="/"
+              className="logo"
+              style={{ display: "flex", alignItems: "center", gap: "0.45rem" }}
+            >
+              <LogoMark color="#000000" width={26} height={26} />
+              <span>aaieo.com</span>
+            </Link>
             <div className="nav-links">
               <Link href="/agencies">Agencies</Link>
               <Link href="/insurance">Insurance</Link>
@@ -64,7 +72,13 @@ export default function RootLayout({
           <div className="container">
             <div className="footer-content">
               <div className="footer-brand">
-                <div className="logo">aaieo.com</div>
+                <div
+                  className="logo"
+                  style={{ display: "flex", alignItems: "center", gap: "0.5rem" }}
+                >
+                  <LogoMark color="#ffffff" width={34} height={34} />
+                  <span>aaieo.com</span>
+                </div>
                 <p>The Standard for Agentic Liability. Auditing the future of autonomous action.</p>
               </div>
               <div className="footer-links">
