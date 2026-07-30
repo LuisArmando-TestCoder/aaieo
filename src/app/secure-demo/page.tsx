@@ -76,7 +76,7 @@ export default function SecureDemo() {
     <main className={styles.secureMain}>
       <div className={styles.secureHeader}>
         <div className="container">
-          <h2>aaieo.com — Secure Data Room</h2>
+          <h2>aaieo.com, Secure Data Room</h2>
           <div className={styles.warningBadge}>Confidential IP Access</div>
         </div>
       </div>

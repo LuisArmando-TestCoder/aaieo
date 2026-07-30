@@ -1,5 +1,5 @@
 /**
- * LogoMark — the aaieo 'Aï' monogram.
+ * LogoMark, the aaieo 'Aï' monogram.
  *
  * Server component; no hooks. Color defaults to black (#000000) for light
  * backgrounds and should be set to white (#ffffff) on dark backgrounds.

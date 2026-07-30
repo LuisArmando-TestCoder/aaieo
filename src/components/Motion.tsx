@@ -14,7 +14,7 @@ import {
 } from "framer-motion";
 
 /* ────────────────────────────────────────────────────────────────
-   Scroll progress — thin fixed bar driven by document scroll
+   Scroll progress, thin fixed bar driven by document scroll
 ──────────────────────────────────────────────────────────────── */
 export function ScrollProgress({ className }: { className?: string }) {
   const { scrollYProgress } = useScroll();
@@ -27,7 +27,7 @@ export function ScrollProgress({ className }: { className?: string }) {
 }
 
 /* ────────────────────────────────────────────────────────────────
-   Parallax — translate children as the block passes the viewport
+   Parallax, translate children as the block passes the viewport
 ──────────────────────────────────────────────────────────────── */
 export function Parallax({
   children,
@@ -54,7 +54,7 @@ export function Parallax({
 }
 
 /* ────────────────────────────────────────────────────────────────
-   HeroParallax — fades / lifts / scales the hero as it scrolls away
+   HeroParallax, fades / lifts / scales the hero as it scrolls away
 ──────────────────────────────────────────────────────────────── */
 export function HeroParallax({
   children,
@@ -84,7 +84,7 @@ export function HeroParallax({
 }
 
 /* ────────────────────────────────────────────────────────────────
-   PointerGlow — a soft radial light that trails the cursor
+   PointerGlow, a soft radial light that trails the cursor
    (background layer; ignores pointer events, listens on window)
 ──────────────────────────────────────────────────────────────── */
 export function PointerGlow({ className }: { className?: string }) {
@@ -116,7 +116,7 @@ export function PointerGlow({ className }: { className?: string }) {
 }
 
 /* ────────────────────────────────────────────────────────────────
-   ScrubReveal — words brighten in sequence as you scroll through
+   ScrubReveal, words brighten in sequence as you scroll through
 ──────────────────────────────────────────────────────────────── */
 function ScrubWord({
   progress,
@@ -167,7 +167,7 @@ export function ScrubReveal({
 }
 
 /* ────────────────────────────────────────────────────────────────
-   TextReveal — masked, word-by-word reveal for headings on enter
+   TextReveal, masked, word-by-word reveal for headings on enter
 ──────────────────────────────────────────────────────────────── */
 const HEADING_TAGS = { h1: motion.h1, h2: motion.h2, h3: motion.h3 } as const;
 
@@ -226,7 +226,7 @@ export function TextReveal({
 }
 
 /* ────────────────────────────────────────────────────────────────
-   VelocityMarquee — infinite marquee that reacts to scroll velocity
+   VelocityMarquee, infinite marquee that reacts to scroll velocity
 ──────────────────────────────────────────────────────────────── */
 function wrapValue(min: number, max: number, v: number) {
   const range = max - min;
@@ -276,7 +276,7 @@ export function VelocityMarquee({
 }
 
 /* ────────────────────────────────────────────────────────────────
-   SpotlightCard — 3D tilt + cursor spotlight + on-enter reveal
+   SpotlightCard, 3D tilt + cursor spotlight + on-enter reveal
 ──────────────────────────────────────────────────────────────── */
 export function SpotlightCard({
   children,

@@ -16,7 +16,7 @@ export default function Home() {
     <main className={styles.main}>
       <ScrollProgress className={styles.scrollProgress} />
 
-      {/* ── HERO — the declaration ─────────────────────────────────── */}
+      {/* ── HERO, the declaration ─────────────────────────────────── */}
       <section className={styles.hero}>
         <div className={styles.heroBg} aria-hidden="true">
           <PointerGlow className={styles.glow} />
@@ -34,7 +34,7 @@ export default function Home() {
             <FadeIn delay={0.35}>
               <p className={styles.subtitle}>
                 aaieo is the accountability layer for autonomous artificial
-                intelligence — the Errors &amp; Omissions infrastructure that lets
+                intelligence, the Errors &amp; Omissions infrastructure that lets
                 any business deploy agents with confidence. Because when an
                 algorithm makes the wrong call, we have you covered.
               </p>
@@ -64,13 +64,13 @@ export default function Home() {
         Accountability &nbsp;&mdash;&nbsp; The Equity of Risk &nbsp;&mdash;&nbsp;{" "}
       </VelocityMarquee>
 
-      {/* ── The Panorama — the problem, stated as purpose ──────────── */}
+      {/* ── The Panorama, the problem, stated as purpose ──────────── */}
       <section className={styles.statementSection}>
         <div className="container">
           <span className={styles.eyebrow}>The Panorama</span>
           <ScrubReveal
             className={styles.statement}
-            text="The future of work already arrived. What stalled was the courage to trust it — because when an autonomous agent makes the wrong call, no one can say who answers for it."
+            text="The future of work already arrived. What stalled was the courage to trust it, because when an autonomous agent makes the wrong call, no one can say who answers for it."
           />
         </div>
       </section>
@@ -88,25 +88,25 @@ export default function Home() {
 
           <div className={styles.featuresGrid}>
             <SpotlightCard className={styles.spotlightCard} delay={0}>
-              <span className={styles.cardIndex}>01 — The Blame Gap</span>
+              <span className={styles.cardIndex}>01, The Blame Gap</span>
               <h3>Who pays when it fails?</h3>
               <p>
                 When an agent errs, its builder cannot absorb the loss and its
                 operator cannot undo it. Adoption freezes on a single unanswered
-                question — and fear wins by default.
+                question, and fear wins by default.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.08}>
-              <span className={styles.cardIndex}>02 — The Third Party</span>
+              <span className={styles.cardIndex}>02, The Third Party</span>
               <h3>We stand in the gap.</h3>
               <p>
                 aaieo sits between the promise of autonomy and the cost of its
-                mistakes, so a wrong call becomes a covered claim — not a
+                mistakes, so a wrong call becomes a covered claim, not a
                 catastrophe, and never a bankruptcy.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.16}>
-              <span className={styles.cardIndex}>03 — The Green Light</span>
+              <span className={styles.cardIndex}>03, The Green Light</span>
               <h3>Permission to build.</h3>
               <p>
                 With a safety net in place, hesitation turns into deployment.
@@ -118,7 +118,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Dynamic Accountability — the living standard ───────────── */}
+      {/* ── Dynamic Accountability, the living standard ───────────── */}
       <section className={styles.section}>
         <div className="container">
           <div className={styles.sectionHeader}>
@@ -134,25 +134,25 @@ export default function Home() {
 
           <div className={styles.featuresGrid}>
             <SpotlightCard className={styles.spotlightCard} delay={0}>
-              <span className={styles.cardIndex}>01 — The Discipline</span>
+              <span className={styles.cardIndex}>01, The Discipline</span>
               <h3>Safety as a Standard</h3>
               <p>
-                Coverage begins with discipline — a living set of safety guidelines
+                Coverage begins with discipline, a living set of safety guidelines
                 your orchestration must embody. Meet them and you are certified;
                 follow them and you are protected.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.08}>
-              <span className={styles.cardIndex}>02 — The Living Certificate</span>
+              <span className={styles.cardIndex}>02, The Living Certificate</span>
               <h3>Avant-Garde, Not Evergreen</h3>
               <p>
                 Static, annual audits belong to a slower era. We benchmark, revise,
-                and re-issue — so your standing is never evergreen, always the
+                and re-issue, so your standing is never evergreen, always the
                 current state of the art.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.16}>
-              <span className={styles.cardIndex}>03 — The Compounding Standard</span>
+              <span className={styles.cardIndex}>03, The Compounding Standard</span>
               <h3>The Network Learns</h3>
               <p>
                 Every honest failure teaches the network. New guidance reaches every
@@ -164,7 +164,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── The Equity of Risk — integrity / anti-fraud (hint only) ── */}
+      {/* ── The Equity of Risk, integrity / anti-fraud (hint only) ── */}
       <section className={styles.section}>
         <div className="container">
           <div className={styles.sectionHeader}>
@@ -180,29 +180,29 @@ export default function Home() {
 
           <div className={styles.featuresGrid}>
             <SpotlightCard className={styles.spotlightCard} delay={0}>
-              <span className={styles.cardIndex}>01 — Provenance</span>
+              <span className={styles.cardIndex}>01, Provenance</span>
               <h3>An Immutable Lineage</h3>
               <p>
                 Every change you ship is preserved in a record no one can quietly
-                rewrite. Provenance here is not a promise — it is mathematics.
+                rewrite. Provenance here is not a promise, it is mathematics.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.08}>
-              <span className={styles.cardIndex}>02 — Solvency</span>
+              <span className={styles.cardIndex}>02, Solvency</span>
               <h3>Fraud, Excluded by Design</h3>
               <p>
                 The oldest trick in insurance is to break something on purpose and
-                blame the machine. Here, tampering reveals itself — and the pool
+                blame the machine. Here, tampering reveals itself, and the pool
                 stays solvent for everyone who plays fair.
               </p>
             </SpotlightCard>
             <SpotlightCard className={styles.spotlightCard} delay={0.16}>
-              <span className={styles.cardIndex}>03 — The Moat</span>
+              <span className={styles.cardIndex}>03, The Moat</span>
               <h3>The Part We Keep</h3>
               <p>
                 This is the piece we keep off the slide. The engine that tells
                 honest failure from manufactured fraud is why this can be built once
-                — and trusted always.
+               , and trusted always.
               </p>
             </SpotlightCard>
           </div>
@@ -225,7 +225,7 @@ export default function Home() {
               <span className={styles.cardIndex}>Protocol &amp; Registry</span>
               <h3>aaieo</h3>
               <p>
-                The governance framework and root of trust — the continuous standard
+                The governance framework and root of trust, the continuous standard
                 every autonomous agent is measured against.
               </p>
             </SpotlightCard>
@@ -234,7 +234,7 @@ export default function Home() {
               <h3>Riskmai</h3>
               <p>
                 The proving ground. Builders run adversarial simulations against
-                their agents until they meet the standard — long before they seek
+                their agents until they meet the standard, long before they seek
                 coverage.
               </p>
             </SpotlightCard>
@@ -251,13 +251,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── The Institutional Value — closing manifesto ────────────── */}
+      {/* ── The Institutional Value, closing manifesto ────────────── */}
       <section className={styles.statementSection}>
         <div className="container">
           <span className={styles.eyebrow}>The Institutional Value</span>
           <ScrubReveal
             className={styles.statement}
-            text="aaieo does not build the intelligence. We make it accountable — the rails that let the world say yes to autonomy. When machines can be trusted, progress stops asking permission."
+            text="aaieo does not build the intelligence. We make it accountable, the rails that let the world say yes to autonomy. When machines can be trusted, progress stops asking permission."
           />
         </div>
       </section>
